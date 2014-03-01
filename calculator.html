@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div> 
+    Target Volume:  
+    <input id="target_volume">ml<br /> 
+    Nicotine Starting mg:  
+    <input id="nic_start_mg">mg<br /> 
+    Nicotine Target mg:  
+    <input id="nic_target_mg">mg<br /> 
+    Nicotine PG Ratio:  
+    <input id="nic_pg_ratio">%<br /> 
+    Nicotine VG Ratio:  
+    <input id="nic_vg_ratio">%<br /> 
+    Target PG Ratio:  
+    <input id="pg_ratio">%<br /> 
+    Target VG Ratio:  
+    <input id="vg_ratio">%<br /> 
+    Flavor Percentage:  
+    <input id="flavor_percentage">%<br /> 
+    <button onclick="formula_calc.calc()">Calculate</button>
+    <p></p> 
+</div>
+<div id="results">
+</div>
+<script src="calculator.js"></script>
+</body>
+</html>
